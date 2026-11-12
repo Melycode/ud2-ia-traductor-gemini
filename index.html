@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor Offline</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+
+</head>
+<body>
+    <div class="card">
+        <h2>Traductor Interno (Offline)</h2>
+        <p>Herramienta para el personal de atención al cliente (sin costes de API externa).</p>
+        
+        <button id="toggleDirBtn" class="toggle-btn">Dirección: Inglés ➔ Español</button>
+        <br>
+        <label for="inputText"><strong>Texto borrador o ticket:</strong></label>
+        <textarea id="inputText" placeholder="Write something in English..."></textarea>
+        
+        <button id="translateBtn" disabled>Traducir Texto</button>
+        
+        <div id="status">Cargando modelos de IA en el navegador...</div>
+        
+        <h3>Resultado de la traducción:</h3>
+        <div id="output" class="result-box"></div>
+    </div>
+</body>
+</html>

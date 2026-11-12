@@ -1,0 +1,71 @@
+ body { 
+	font-family: Arial, sans-serif; 
+	max-width: 650px; 
+	margin: 40px auto; 
+	padding: 20px; 
+	background: #5dc5df; 
+	color: #3a646e; }
+
+.card { 
+	background: white; 
+	padding: 25px; 
+	border-radius: 8px; 
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+textarea { 
+	width: 100%; 
+	height: 110px; 
+	margin-top: 10px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	resize: vertical; 
+}
+
+button { 
+	margin-top: 12px; 
+	padding: 10px 18px; 
+	background: #ebb319; 
+	color: white; 
+	border: none; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	font-weight: bold; 
+}
+
+button:disabled { 
+	background: #f0c60b; 
+	cursor: not-allowed; 
+}
+
+button:hover:not(:disabled) { 
+	background: #bd9014; 
+}
+
+#status { 
+	font-weight: bold; 
+	color: #0ab4df; 
+	margin-top: 15px; 
+	font-size: 0.95em; 
+}
+
+.result-box { 
+	margin-top: 15px; 
+	padding: 12px; 
+	background: #e9ecef; 
+	border-radius: 4px; 
+	min-height: 50px; 
+	white-space: pre-wrap; 
+	border: 1px solid #ced4da; 
+}
+
+.toggle-btn { 
+	background: #f0c60b; 
+	margin-bottom: 10px; 
+}
+
+.toggle-btn:hover { 
+	background: #979b9e; 
+}
